@@ -1,0 +1,35 @@
+/* Container and Slide Styles */
+.custom-slick-slider {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.custom-slick-slider .slide {
+  height: 380px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+
+/* Number Navigation */
+.custom-slider-nav {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.custom-slider-nav .nav-btn {
+  background: #ddd;
+  border: none;
+  padding: 6px 14px;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.custom-slider-nav .nav-btn.active {
+  background: #333;
+  color: #fff;
+}
